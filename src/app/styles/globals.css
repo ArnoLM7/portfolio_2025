@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+body {
+	color: var(--foreground);
+	min-height: 100vh;
+	margin: 0;
+	background: linear-gradient(0.25turn, #0e0f2c -20%, #060b67, #17062d);
+	overflow-x: hidden;
+}
+
+.relative {
+	position: relative;
+}
+
+.wave {
+	position: relative;
+	background: rgba(255, 254, 204, 0.5);
+}
+
+.shadowLight {
+	box-shadow: 0px 0px 100px 10px rgba(255, 254, 204, 0.5);
+}
+
+@font-face {
+	font-family: "Tackerlen";
+	src: url("/font/tackerlen.ttf") format("truetype");
+}
