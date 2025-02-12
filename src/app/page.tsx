@@ -28,7 +28,7 @@ export default function Home() {
 				src="/assets/wave.svg"
 				width={1900}
 				height={20}
-				className="wave"
+				className="wave mt-20"
 			></Image>
 			<StarryBackground />
 		</>
