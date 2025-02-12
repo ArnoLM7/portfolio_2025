@@ -21,8 +21,15 @@ body {
 	position: relative;
 }
 
+.whoami {
+	height: 30em;
+}
+
 .wave {
 	position: relative;
+	object-fit: cover;
+	width: 100%;
+	height: 30em;
 }
 
 .shadowLight {
@@ -32,4 +39,9 @@ body {
 @font-face {
 	font-family: "Tackerlen";
 	src: url("/font/tackerlen.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Questrial";
+	src: url("/font/questrial.ttf") format("truetype");
 }
