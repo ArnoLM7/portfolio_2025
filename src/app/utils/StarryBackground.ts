@@ -5,7 +5,7 @@ export default function StarryBackground() {
 	useEffect(() => {
 		const stars: HTMLElement[] = []; // Déclaration du tableau des étoiles
 
-		for (let i = 0; i < 700; i++) {
+		for (let i = 0; i < 500; i++) {
 			const star = document.createElement("div");
 			star.classList.add("star");
 			star.style.zIndex = "-1";
@@ -25,7 +25,7 @@ export default function StarryBackground() {
 		window.addEventListener("mousemove", (event) => {
 			const mouseX = event.clientX;
 			const mouseY = event.clientY;
-			const repelDistance = 120;
+			const repelDistance = 150;
 
 			stars.forEach((star) => {
 				const starRect = star.getBoundingClientRect();

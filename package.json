@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "gsap": "^3.12.7",
+    "motion": "^12.4.2",
     "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-use-measure": "^2.1.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
