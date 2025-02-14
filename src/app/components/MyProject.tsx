@@ -41,7 +41,7 @@ export default function MyProject() {
 				<div className="flex gap-16">
 					<div className="mt-32 text-center text-yellow-100">
 						<h4 className="mb-4 text-3xl font-[Tackerlen]">Octobre 2023</h4>
-						<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52  rounded-full p-2 shadowLight">
+						<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52 rounded-full p-2 shadowLight">
 							<p className="font-[Questrial] text-center text-xl text-blue-950">
 								Webdocumentaire sur Octobre Rose
 							</p>
