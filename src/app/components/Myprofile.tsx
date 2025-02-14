@@ -21,7 +21,7 @@ export default function Myprofile() {
 					rencontrer de nouvelles personnes. Je suis un développeur web
 					passionné par la création de sites web et d&apos;applications web.
 					J&apos;aime apprendre de nouvelles choses et rencontrer de nouvelles
-					personnes. e suis un développeur web passionné par la création de
+					personnes. Je suis un développeur web passionné par la création de
 					sites web et d&apos;applications web. J&apos;aime apprendre de
 					nouvelles choses et rencontrer de nouvelles personnes. Je suis un
 					développeur web passionné par la création de sites web et

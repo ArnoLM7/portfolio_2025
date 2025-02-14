@@ -26,7 +26,7 @@ export default function MyProject() {
 	// ];
 
 	return (
-		<div className="heightContainer mt-80 mx-64 items-center flex">
+		<div className="heightContainer mt-80 mx-64 items-center flex justify-center">
 			<div className="absolute left-0 w-full">
 				<Image
 					alt="Arno_Lemoil"
@@ -38,26 +38,38 @@ export default function MyProject() {
 			</div>
 			<div className="relative">
 				<h2 className="text-5xl font-[Tackerlen]">Mes projets</h2>
-				<div className="flex gap-16 mt-16">
-					<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52 mt-36 rounded-full p-2 shadowLight">
-						<h2 className="font-[Questrial] text-center text-xl text-blue-950">
-							Webdocumentaire sur Octobre Rose
-						</h2>
+				<div className="flex gap-16">
+					<div className="mt-32 text-center text-yellow-100">
+						<h4 className="mb-4 text-3xl font-[Tackerlen]">Octobre 2023</h4>
+						<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52  rounded-full p-2 shadowLight">
+							<p className="font-[Questrial] text-center text-xl text-blue-950">
+								Webdocumentaire sur Octobre Rose
+							</p>
+						</div>
 					</div>
-					<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52 rounded-full p-2 shadowLight">
-						<h2 className="font-[Questrial] text-center text-xl text-blue-950">
-							AeroClub de Frotey-Les-Lures
-						</h2>
+					<div className=" text-center text-yellow-100">
+						<h4 className="mb-4 text-3xl font-[Tackerlen]">Février 2024</h4>
+						<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52 rounded-full p-2 shadowLight">
+							<p className="font-[Questrial] text-center text-xl text-blue-950">
+								AeroClub de Frotey-Les-Lures
+							</p>
+						</div>
 					</div>
-					<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52 mt-36 rounded-full p-2 shadowLight">
-						<h2 className="font-[Questrial] text-center text-xl text-blue-950">
-							Commande de sushi
-						</h2>
+					<div className="mt-32 text-center text-yellow-100">
+						<h4 className="mb-4 text-3xl font-[Tackerlen]">Mars 2024</h4>
+						<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52 rounded-full p-2 shadowLight">
+							<p className="font-[Questrial] text-center text-xl text-blue-950">
+								Commande de sushi
+							</p>
+						</div>
 					</div>
-					<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52 hover:w-64 hover:h-64 rounded-full p-2 shadowLight">
-						<h2 className="font-[Questrial] text-center text-xl text-blue-950">
-							Eye-care
-						</h2>
+					<div className="text-center text-yellow-100">
+						<h4 className="mb-4 text-3xl font-[Tackerlen]">2024-2025</h4>
+						<div className="project flex justify-center items-center bg-yellow-100 w-52 h-52 rounded-full p-2 shadowLight">
+							<h4 className="font-[Questrial] text-center text-3xl text-blue-950">
+								Eye-care
+							</h4>
+						</div>
 					</div>
 				</div>
 			</div>
