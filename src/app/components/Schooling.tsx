@@ -6,7 +6,7 @@ export default function Schooling() {
 			<div className="relative">
 				<h2 className="text-5xl font-[Tackerlen] mb-12">Formations</h2>
 				<div className="flex gap-2 pl-10 mb-10">
-					<span className="bg-yellow-100 shadowLight spanSchooling"></span>
+					<span className="bg-yellow-100 shadowLight2 spanSchooling"></span>
 					<div>
 						<h3 className="font-[Tackerlen] pl-6 text-4xl">
 							Lycée Gerard de Nerval
@@ -26,7 +26,7 @@ export default function Schooling() {
 					</div>
 				</div>
 				<div className="flex gap-2 pl-10 mb-10">
-					<span className="bg-yellow-100 shadowLight spanSchooling"></span>
+					<span className="bg-yellow-100 shadowLight2 spanSchooling"></span>
 					<div>
 						<h3 className="font-[Tackerlen] pl-6 text-4xl">
 							Prépa informatique
@@ -44,7 +44,7 @@ export default function Schooling() {
 					</div>
 				</div>
 				<div className="flex gap-2 pl-10">
-					<span className="bg-yellow-100 shadowLight spanSchooling"></span>
+					<span className="bg-yellow-100 shadowLight2 spanSchooling"></span>
 					<div className="flex flex-col justify-between">
 						<h3 className="font-[Tackerlen] pl-6 text-4xl">
 							BUT Métiers du multimédia et de l’internet

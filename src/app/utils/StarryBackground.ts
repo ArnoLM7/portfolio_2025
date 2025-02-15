@@ -5,7 +5,7 @@ export default function StarryBackground() {
 	useEffect(() => {
 		const stars: HTMLElement[] = []; // Déclaration du tableau des étoiles
 
-		for (let i = 0; i < 500; i++) {
+		for (let i = 0; i < 1000; i++) {
 			const star = document.createElement("div");
 			star.classList.add("star");
 			star.style.zIndex = "-1";
@@ -15,7 +15,7 @@ export default function StarryBackground() {
 			star.style.backgroundColor = "white";
 			star.style.borderRadius = "50%";
 			star.style.opacity = `${Math.random() * 0.8 + 0.2}`;
-			star.style.top = `${Math.random() * 400}vh`;
+			star.style.top = `${Math.random() * 500}vh`;
 			star.style.left = `${Math.random() * 100}vw`;
 			document.body.appendChild(star);
 			stars.push(star);

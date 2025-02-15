@@ -30,7 +30,7 @@ export default function MyProject() {
 			<div className="absolute left-0 w-full">
 				<Image
 					alt="Arno_Lemoil"
-					src="/assets/wave.svg"
+					src="/assets/wave2.svg"
 					width={1900}
 					height={20}
 					className="wave2"
