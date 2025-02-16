@@ -1,9 +1,9 @@
-<svg width="1435" height="588" viewBox="0 0 1435 588" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1435" height="506" viewBox="0 0 1435 506" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g style="mix-blend-mode:soft-light" filter="url(#filter0_i_36_50)">
-<path d="M750.577 13.5788C347.239 44.5692 390.829 -41.2666 -8 30.692V587.079C-8 524.599 478.531 587.779 765.608 571.079C989.073 558.079 1162.43 545.079 1435 571.079V13.5787C1216.55 -2.29041 1013.62 -6.63239 750.577 13.5788Z" fill="rgba(255, 255, 255, 0.12)"/>
+<path d="M750.577 11.7036C347.239 38.4145 390.829 -35.568 -8 26.4537V506.008C-8 452.156 478.531 506.612 765.608 492.217C989.073 481.012 1162.43 469.808 1435 492.217V11.7036C1216.55 -1.97413 1013.62 -5.7165 750.577 11.7036Z"  fill="rgba(255, 255, 255, 0.12)"/>
 </g>
 <defs>
-<filter id="filter0_i_36_50" x="-8" y="0" width="1458" height="604.079" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i_36_50" x="-8" y="0" width="1458" height="523.008" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>

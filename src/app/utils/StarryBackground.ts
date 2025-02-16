@@ -15,7 +15,7 @@ export default function StarryBackground() {
 			star.style.backgroundColor = "white";
 			star.style.borderRadius = "50%";
 			star.style.opacity = `${Math.random() * 0.8 + 0.2}`;
-			star.style.top = `${Math.random() * 500}vh`;
+			star.style.top = `${Math.random() * 3600}px`;
 			star.style.left = `${Math.random() * 100}vw`;
 			document.body.appendChild(star);
 			stars.push(star);

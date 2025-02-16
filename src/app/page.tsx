@@ -7,17 +7,19 @@ import MySkills from "./components/MySkills";
 import MyProject from "./components/MyProject";
 import Schooling from "./components/Schooling";
 import NewTechnoMonitoring from "./components/NewTechnoMonitoring";
+import Footer from "./components/Footer";
 
 export default function Home() {
 	return (
-		<div>
+		<main className="flex flex-col min-h-screen">
 			<Intro />
 			<Myprofile />
 			<MySkills />
-			<StarryBackground />
 			<MyProject />
 			<Schooling />
 			<NewTechnoMonitoring />
-		</div>
+			<Footer />
+			<StarryBackground />
+		</main>
 	);
 }
