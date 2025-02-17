@@ -8,10 +8,12 @@ import MyProject from "./components/MyProject";
 import Schooling from "./components/Schooling";
 import NewTechnoMonitoring from "./components/NewTechnoMonitoring";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
 	return (
 		<main className="flex flex-col min-h-screen">
+			<Navbar />
 			<Intro />
 			<Myprofile />
 			<MySkills />
