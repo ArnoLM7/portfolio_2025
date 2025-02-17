@@ -3,7 +3,7 @@ import gsap from "gsap";
 
 export default function StarryBackground() {
 	useEffect(() => {
-		const stars: HTMLElement[] = []; // Déclaration du tableau des étoiles
+		const stars: HTMLElement[] = [];
 
 		for (let i = 0; i < 1000; i++) {
 			const star = document.createElement("div");
@@ -21,7 +21,6 @@ export default function StarryBackground() {
 			stars.push(star);
 		}
 
-		// Gestion du mouvement de la souris
 		window.addEventListener("mousemove", (event) => {
 			const mouseX = event.clientX;
 			const mouseY = event.clientY;
