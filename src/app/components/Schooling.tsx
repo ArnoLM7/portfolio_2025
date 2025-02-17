@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Schooling() {
 	return (
-		<div className="heightContainer mt-64 mx-80 items-center flex">
+		<div
+			id="schooling"
+			className="heightContainer mt-64 mx-80 items-center flex"
+		>
 			<div className="relative">
 				<h2 className="text-5xl font-[Tackerlen] mb-12">Formations</h2>
 				<div className="flex gap-2 pl-10 mb-10">

@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export default function NewTechnoMonitoring() {
 	return (
-		<div className="heightContainer mt-64 mx-80 items-center flex">
+		<div
+			id="newTechno"
+			className="heightContainer mt-64 mx-80 items-center flex"
+		>
 			<div className="absolute left-0 w-full">
 				<Image
 					alt="Arno_Lemoil"

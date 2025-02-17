@@ -24,7 +24,7 @@ function MySkills() {
 	}, [xTranslation, width]);
 
 	return (
-		<div className="relative mt-20 items-center py-8">
+		<div id="myskills" className="relative mt-20 items-center py-8">
 			<h2 className="text-5xl font-[Tackerlen] mb-14 mx-80">Mes compétences</h2>
 			<motion.div
 				className="absolute left-0 flex gap-16"

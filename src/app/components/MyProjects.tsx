@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-export default function MyProject() {
+export default function MyProjects() {
 	return (
-		<div className="heightContainer mt-80 mx-64 items-center flex justify-center">
+		<div
+			id="myprojects"
+			className="heightContainer mt-80 mx-64 items-center flex justify-center"
+		>
 			<div className="absolute left-0 w-full">
 				<Image
 					alt="Arno_Lemoil"

@@ -4,7 +4,7 @@ import StarryBackground from "./utils/StarryBackground";
 import Myprofile from "./components/Myprofile";
 import Intro from "./components/Intro";
 import MySkills from "./components/MySkills";
-import MyProject from "./components/MyProject";
+import MyProjects from "./components/MyProjects";
 import Schooling from "./components/Schooling";
 import NewTechnoMonitoring from "./components/NewTechnoMonitoring";
 import Footer from "./components/Footer";
@@ -17,7 +17,7 @@ export default function Home() {
 			<Intro />
 			<Myprofile />
 			<MySkills />
-			<MyProject />
+			<MyProjects />
 			<Schooling />
 			<NewTechnoMonitoring />
 			<Footer />

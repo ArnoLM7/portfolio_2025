@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export default function Myprofile() {
 	return (
-		<div className="heightContainer mt-20 mx-80 items-center flex">
+		<div
+			id="myprofile"
+			className="heightContainer mt-20 mx-80 items-center flex"
+		>
 			<div className="absolute left-0 w-full">
 				<Image
 					alt="Arno_Lemoil"

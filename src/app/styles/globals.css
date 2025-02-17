@@ -9,6 +9,10 @@
 	}
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: var(--foreground);
 	min-height: 100vh;
