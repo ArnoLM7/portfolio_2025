@@ -4,6 +4,7 @@ import { projects } from "../utils/projects";
 
 export default function MyProjects() {
 	const [hoveredProject, setHoveredProject] = useState<number | null>(null);
+	const [clickedProject, setClickedProject] = useState<number | null>(null);
 
 	return (
 		<div
@@ -34,6 +35,7 @@ export default function MyProjects() {
 								className="project cursor-pointer flex justify-center items-center bg-yellow-100 text-blue-950 hover:shadow-none duration-300 ease-in-out w-52 h-52 rounded-full p-2 shadowLight relative"
 								onMouseEnter={() => setHoveredProject(index)}
 								onMouseLeave={() => setHoveredProject(null)}
+								onClick={() => setClickedProject(index)}
 							>
 								{hoveredProject === index && (
 									<div className="absolute inset-0 bg-black bg-opacity-80 rounded-full flex justify-center items-center gap-2">
@@ -52,6 +54,26 @@ export default function MyProjects() {
 									{project.title}
 								</p>
 							</div>
+							{clickedProject === index && (
+								<div className="fixed z-30 top-0 left-0 w-full h-full bg-black bg-opacity-80 flex justify-center items-center">
+									<div className="absolute flex gap-8 top-20 left-44">
+										<Image
+											alt="flecheRetour"
+											src={"/assets/arrow.svg"}
+											width={40}
+											height={40}
+											onClick={() => setClickedProject(null)}
+											className="cursor-pointer"
+										/>
+										<h2 className="font-[Tackerlen] text-white text-5xl ">
+											{project.title}
+										</h2>
+									</div>
+									<p className="text-white text-[Questrial] text-lg">
+										{project.description}
+									</p>
+								</div>
+							)}
 						</div>
 					))}
 				</div>
