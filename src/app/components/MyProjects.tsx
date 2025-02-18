@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { projects } from "../utils/projects";
+import CarouselProjects from "./CarouselProjects";
+import Link from "next/link";
 
 export default function MyProjects() {
 	const [hoveredProject, setHoveredProject] = useState<number | null>(null);
@@ -50,13 +52,13 @@ export default function MyProjects() {
 										/>
 									</div>
 								)}
-								<p className="font-[Questrial] text-center text-xl">
+								<p className="font-[Tackerlen] text-center text-3xl">
 									{project.title}
 								</p>
 							</div>
 							{clickedProject === index && (
-								<div className="fixed z-30 top-0 left-0 w-full h-full bg-black bg-opacity-80 flex justify-center items-center">
-									<div className="absolute flex gap-8 top-20 left-44">
+								<div className="fixed z-30 top-0 left-0 w-full h-full bg-black bg-opacity-80 justify-center items-center">
+									<div className="absolute flex gap-8 top-16 left-40">
 										<Image
 											alt="flecheRetour"
 											src={"/assets/arrow.svg"}
@@ -69,9 +71,23 @@ export default function MyProjects() {
 											{project.title}
 										</h2>
 									</div>
-									<p className="text-white text-[Questrial] text-lg">
-										{project.description}
-									</p>
+									<div className="flex flex-col justify-center items-center gap-8 h-full">
+										<p className="text-white text-[Questrial] text-lg">
+											{project.description}
+										</p>
+										<CarouselProjects images={project.images} />
+										<div className="flex gap-4 justify-center">
+											<Link href="https://github.com/RubenDavidAbreu/nagashima">
+												<Image
+													src="/assets/github.svg"
+													alt="Github"
+													width={35}
+													height={35}
+													className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
+												/>
+											</Link>
+										</div>
+									</div>
 								</div>
 							)}
 						</div>
