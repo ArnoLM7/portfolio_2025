@@ -6,6 +6,7 @@ export const imagesStack = [
 	{ path: "/assets/react.svg", name: "React" },
 	{ path: "/assets/angular.svg", name: "Angular" },
 	{ path: "/assets/tailwindcss.svg", name: "Tailwind" },
+	{ path: "/assets/nodejs.svg", name: "NodeJS" },
 	{ path: "/assets/symfony.svg", name: "Symfony" },
 	{ path: "/assets/docker.svg", name: "Docker" },
 	{ path: "/assets/figma.svg", name: "Figma" },

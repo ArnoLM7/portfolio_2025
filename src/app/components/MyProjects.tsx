@@ -94,24 +94,28 @@ export default function MyProjects() {
 											/>
 
 											<div className="flex gap-6 justify-center">
-												<Link href="https://github.com/RubenDavidAbreu/nagashima">
-													<Image
-														src="/assets/github.svg"
-														alt="Github"
-														width={50}
-														height={50}
-														className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
-													/>
-												</Link>
-												<Link href="https://github.com/RubenDavidAbreu/nagashima">
-													<Image
-														src="/assets/web.svg"
-														alt="Web"
-														width={50}
-														height={50}
-														className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
-													/>
-												</Link>
+												{project.github && (
+													<Link href={project.github}>
+														<Image
+															src="/assets/github.svg"
+															alt="Github"
+															width={50}
+															height={50}
+															className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
+														/>
+													</Link>
+												)}
+												{project.web && (
+													<Link href={project.web}>
+														<Image
+															src="/assets/web.svg"
+															alt="Web"
+															width={50}
+															height={50}
+															className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
+														/>
+													</Link>
+												)}
 											</div>
 										</div>
 									</div>

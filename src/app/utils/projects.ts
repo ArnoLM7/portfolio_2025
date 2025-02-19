@@ -12,6 +12,7 @@ export const projects = [
 		],
 		up: true,
 		technologies: ["HTML", "CSS", "Javascript"],
+		github: "https://github.com/ArnoLM7/Webdocumentaire-Octobre-rose",
 	},
 	{
 		date: "Mars 2024",
@@ -25,6 +26,7 @@ export const projects = [
 		],
 		mobile: true,
 		technologies: ["NodeJS", "Angular", "Bootstrap"],
+		github: "https://github.com/RubenDavidAbreu/nagashima",
 	},
 	{
 		date: "Juin 2024",
@@ -47,5 +49,7 @@ export const projects = [
 			"/assets/eye-care/profile.png",
 		],
 		technologies: ["Symfony", "ReactJS", "SCSS"],
+		github: "https://github.com/Raphi04/Eye-Care_SAE501",
+		web: "https://eye-care-project.netlify.app/",
 	},
 ];
