@@ -9,6 +9,7 @@ import Schooling from "./components/Schooling";
 import NewTechnoMonitoring from "./components/NewTechnoMonitoring";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
 
 export default function Home() {
 	return (
@@ -20,6 +21,7 @@ export default function Home() {
 			<MyProjects />
 			<Schooling />
 			<NewTechnoMonitoring />
+			<Contact />
 			<Footer />
 			<StarryBackground />
 		</main>

@@ -28,7 +28,7 @@ export default function Navbar() {
 						className="gap-14 flex px-8"
 					>
 						<a href="#myprofile" className="font-[Tackerlen] text-2xl">
-							Qui suis-je
+							Mon profil
 						</a>
 						<a href="#myskills" className="font-[Tackerlen] text-2xl">
 							Mes compétences
@@ -41,6 +41,9 @@ export default function Navbar() {
 						</a>
 						<a href="#newTechno" className="font-[Tackerlen] text-2xl">
 							Veille technologique
+						</a>
+						<a href="#contact" className="font-[Tackerlen] text-2xl">
+							Contact
 						</a>
 					</motion.div>
 				)}

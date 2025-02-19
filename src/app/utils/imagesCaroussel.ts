@@ -10,7 +10,7 @@ export const imagesStack = [
 	{ path: "/assets/symfony.svg", name: "Symfony" },
 	{ path: "/assets/docker.svg", name: "Docker" },
 	{ path: "/assets/figma.svg", name: "Figma" },
-	{ path: "/assets/blender.svg", name: "Blender" },
 	{ path: "/assets/gitlab.svg", name: "GitLab" },
+	{ path: "/assets/blender.svg", name: "Blender" },
 	{ path: "/assets/suiteAdobe.svg", name: "Adobe" },
 ];

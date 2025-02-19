@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { projects } from "../utils/projects";
 import CarouselProjects from "./CarouselProjects";
-import Link from "next/link";
 
 export default function MyProjects() {
 	const [hoveredProject, setHoveredProject] = useState<number | null>(null);
@@ -95,7 +94,11 @@ export default function MyProjects() {
 
 											<div className="flex gap-6 justify-center">
 												{project.github && (
-													<Link href={project.github}>
+													<a
+														href={project.github}
+														target="_blank"
+														rel="noopener noreferrer"
+													>
 														<Image
 															src="/assets/github.svg"
 															alt="Github"
@@ -103,10 +106,14 @@ export default function MyProjects() {
 															height={50}
 															className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
 														/>
-													</Link>
+													</a>
 												)}
 												{project.web && (
-													<Link href={project.web}>
+													<a
+														href={project.web}
+														target="_blank"
+														rel="noopener noreferrer"
+													>
 														<Image
 															src="/assets/web.svg"
 															alt="Web"
@@ -114,7 +121,7 @@ export default function MyProjects() {
 															height={50}
 															className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
 														/>
-													</Link>
+													</a>
 												)}
 											</div>
 										</div>

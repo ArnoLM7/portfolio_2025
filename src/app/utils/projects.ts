@@ -32,7 +32,7 @@ export const projects = [
 		date: "Juin 2024",
 		title: "Questionnaire",
 		description: "Projet de fin d'études en groupe de 5, 6 mois de travail, ",
-		images: ["/assets/jdg-fred.gif"],
+		images: ["/assets/jdg-fred.gif", "/assets/chat.gif"],
 		up: true,
 		technologies: ["Figma", "Photoshop"],
 	},
