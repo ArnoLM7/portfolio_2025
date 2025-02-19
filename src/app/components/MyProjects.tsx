@@ -74,8 +74,12 @@ export default function MyProjects() {
 											project.mobile ? "" : "flex-col"
 										} justify-center items-center gap-8 h-[100vh]`}
 									>
-										<div className="flex flex-col justify-center gap-2 ">
-											<p className="text-white font-[Questrial] text-lg">
+										<div
+											className={`flex flex-col justify-center gap-2 ${
+												project.mobile ? "w-[700px]" : "mt-16 mx-20"
+											}`}
+										>
+											<p className="text-white font-[Questrial] text-base">
 												{project.description}
 											</p>
 											<p className="text-white font-[Questrial] text-sm font-weight-bold gap-4 italic">

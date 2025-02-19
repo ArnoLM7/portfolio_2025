@@ -35,7 +35,7 @@ export default function Myprofile() {
 					technologie auquel j&apos;ai tout de suite accroché par sa simplicité
 					et sa façon de gérer les données.
 				</p>
-				<div className="flex gap-5 mt-10 pl-10 items-center">
+				<div className="flex gap-5 mt-8 pl-10 items-center">
 					<p className="text-lg font-[Questrial]">Télécharger mon CV :</p>
 					<a href="/assets/cvArno.pdf" download>
 						<Image
