@@ -4,12 +4,20 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 
-export default function CarouselProjects({ images }: { images: string[] }) {
+export default function CarouselProjects({
+	images,
+	mobile = false,
+}: {
+	images: string[];
+	mobile?: boolean;
+}) {
 	return (
 		<Swiper
 			navigation={true}
 			modules={[Navigation]}
-			className="max-w-[650px] max-h-[300px] rounded-md"
+			className={`${
+				mobile ? "max-w-[280px] max-h-[410px]" : "max-w-[600px] max-h-[300px]"
+			} rounded-md`}
 		>
 			{images.map((image, index) => (
 				<SwiperSlide key={index} className="text-black">

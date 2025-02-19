@@ -7,7 +7,6 @@ import Link from "next/link";
 export default function MyProjects() {
 	const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 	const [clickedProject, setClickedProject] = useState<number | null>(null);
-
 	return (
 		<div
 			id="myprojects"
@@ -71,21 +70,49 @@ export default function MyProjects() {
 											{project.title}
 										</h2>
 									</div>
-									<div className="flex flex-col justify-center items-center gap-8 h-full">
-										<p className="text-white text-[Questrial] text-lg">
-											{project.description}
-										</p>
-										<CarouselProjects images={project.images} />
-										<div className="flex gap-4 justify-center">
-											<Link href="https://github.com/RubenDavidAbreu/nagashima">
-												<Image
-													src="/assets/github.svg"
-													alt="Github"
-													width={35}
-													height={35}
-													className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
-												/>
-											</Link>
+									<div
+										className={`flex ${
+											project.mobile ? "" : "flex-col"
+										} justify-center items-center gap-8 h-[100vh]`}
+									>
+										<div className="flex flex-col justify-center gap-2 ">
+											<p className="text-white font-[Questrial] text-lg">
+												{project.description}
+											</p>
+											<p className="text-white font-[Questrial] text-sm font-weight-bold gap-4 italic">
+												Technologies utilisées :{" "}
+												{project.technologies?.map((tech) => tech).join(", ") ||
+													"Aucune"}
+											</p>
+										</div>
+
+										<div className="flex flex-col gap-8">
+											<CarouselProjects
+												key={index}
+												images={project.images}
+												mobile={project.mobile}
+											/>
+
+											<div className="flex gap-6 justify-center">
+												<Link href="https://github.com/RubenDavidAbreu/nagashima">
+													<Image
+														src="/assets/github.svg"
+														alt="Github"
+														width={50}
+														height={50}
+														className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
+													/>
+												</Link>
+												<Link href="https://github.com/RubenDavidAbreu/nagashima">
+													<Image
+														src="/assets/web.svg"
+														alt="Web"
+														width={50}
+														height={50}
+														className="relative hover:scale-125 duration-300 ease-in-out cursor-pointer"
+													/>
+												</Link>
+											</div>
 										</div>
 									</div>
 								</div>
