@@ -32,7 +32,7 @@ export default function MyProjects() {
 						>
 							<h4 className="mb-4 text-3xl font-[Tackerlen]">{project.date}</h4>
 							<div
-								className="project cursor-pointer flex justify-center items-center bg-yellow-100 text-blue-950 hover:shadow-none duration-300 ease-in-out w-52 h-52 rounded-full p-2 shadowLight relative"
+								className="project cursor-pointer flex justify-center items-center bg-yellow-100 text-black hover:shadow-none duration-300 ease-in-out w-52 h-52 rounded-full p-2 shadowLight relative"
 								onMouseEnter={() => setHoveredProject(index)}
 								onMouseLeave={() => setHoveredProject(null)}
 								onClick={() => setClickedProject(index)}
