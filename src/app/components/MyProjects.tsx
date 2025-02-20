@@ -54,7 +54,7 @@ export default function MyProjects() {
 									{project.title}
 								</p>
 								<Image
-									alt="ruban"
+									alt={`Icon : ${project.icon}`}
 									src={project.icon}
 									width={55}
 									height={55}
