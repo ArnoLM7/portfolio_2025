@@ -22,13 +22,12 @@ export default function Schooling() {
 							Specialités : mathématiques, physique-chimie
 						</p>
 						<p className="text-base font-[Questrial] pl-6">
-							Je suis un développeur web passionné par la création de sites web
-							et d&apos;applications web. J&apos;aime apprendre de nouvelles
-							choses et rencontrer de nouvelles personnes. Je suis un
-							développeur web passionné par la création de sites web et
-							d&apos;applications web. J&apos;aime apprendre de nouvelles choses
-							et rencontrer de nouvelles personnes. Je suis un développeur web
-							passionné par la création de sites web et d&apos;applications web.
+							J&apos;ai obtenu mon baccalauréat scientifique avec mention assez
+							bien. J&apos;ai choisi la spécialité mathématiques et
+							physique-chimie car ce sont des matières qui me plaisaient, mais
+							je regrette de ne pas avoir pu choisir la spécialité numérique et
+							sciences informatique qui n&apos;était malheureusement pas
+							disponible dans mon lycée.
 						</p>
 					</div>
 				</div>
@@ -45,11 +44,10 @@ export default function Schooling() {
 							GEIPI POLYTECH À VILLETANEUSE
 						</p>
 						<p className="text-base font-[Questrial] pl-6">
-							Je suis un développeur web passionné par la création de sites web
-							et d&apos;applications web. J&apos;aime apprendre de nouvelles
-							choses et rencontrer de nouvelles personnes. Je suis un
-							développeur web passionné par la création de sites web et
-							d&apos;applications web.
+							Après mon bac, j&apos;ai décidé de faire une année de prépa
+							informatique pour intégrer une école d&apos;ingénieur, mais mon
+							besoin de faire du concret et de la pratique m&apos;a poussé à me
+							réorienter vers un BUT MMI.
 						</p>
 					</div>
 				</div>
@@ -64,16 +62,15 @@ export default function Schooling() {
 						</div>
 
 						<p className="font-[Tackerlen] text-lg pl-6 mb-2">
-							Spécialités dÉveloppement web et dispositifs interactifs
+							Spécialités développement web et dispositifs interactifs
 						</p>
 						<p className="text-base font-[Questrial] pl-6">
-							Je suis un développeur web passionné par la création de sites web
-							et d&apos;applications web. J&apos;aime apprendre de nouvelles
-							choses et rencontrer de nouvelles personnes. Je suis un
-							développeur web passionné par la création de sites web et
-							d&apos;applications web. J&apos;aime apprendre de nouvelles choses
-							et rencontrer de nouvelles personnes. Je suis un développeur web
-							passionné par la création de sites web et d&apos;applications web.
+							La formation MMI m&apos;a tout de suite plu, grâce à son aspect
+							concret, sa pluralité de matières et son aspect créatif. En 2ème
+							année, je me suis spécialisé dans le développement web, et
+							j&apos;ai particulièrement apprécié travailler en groupe sur des
+							projets de sites ou applications web, ainsi que d&apos;apprendre
+							de nouvelles technolgoies comme ReactJS.
 						</p>
 					</div>
 				</div>

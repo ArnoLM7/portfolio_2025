@@ -38,7 +38,7 @@ export default function MyProjects() {
 								onClick={() => setClickedProject(index)}
 							>
 								{hoveredProject === index && (
-									<div className="absolute inset-0 bg-black bg-opacity-80 rounded-full flex justify-center items-center gap-2">
+									<div className="absolute inset-0 bg-black bg-opacity-80 rounded-full flex justify-center items-center gap-2 z-10">
 										<span className="text-white font-[Questrial] text-3xl">
 											Découvrir
 										</span>
@@ -53,6 +53,13 @@ export default function MyProjects() {
 								<p className="font-[Tackerlen] text-center text-3xl">
 									{project.title}
 								</p>
+								<Image
+									alt="ruban"
+									src={project.icon}
+									width={55}
+									height={55}
+									className="absolute bottom-6"
+								/>
 							</div>
 							{clickedProject === index && (
 								<div className="fixed z-30 top-0 left-0 w-full h-full bg-black bg-opacity-80 justify-center items-center">
