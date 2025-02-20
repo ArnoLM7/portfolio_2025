@@ -4,7 +4,7 @@ export default function Schooling() {
 	return (
 		<div
 			id="schooling"
-			className="heightContainer mt-64 mx-80 items-center flex"
+			className="heightContainer mt-56 mx-80 items-center flex"
 		>
 			<div className="relative">
 				<h2 className="text-5xl font-[Tackerlen] mb-12">Formations</h2>

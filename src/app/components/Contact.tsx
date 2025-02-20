@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Contact() {
 	return (
-		<div id="contact" className="relative mt-40 mx-80">
+		<div id="contact" className="relative mt-28 mx-80">
 			<h2 className="text-5xl font-[Tackerlen] mb-12">Me contacter</h2>
 			<p className="text-base font-[Questrial] pl-10">
 				Si vous êtes interessé par mon profil, n&apos;hésitez pas à me contacter
-				via mes réseaux :
+				via mes réseaux, ou par téléphone :
 			</p>
 			<div className="flex gap-10 m-auto items-center mt-10 text-lg justify-center">
 				<div className="flex gap-3 items-center">
@@ -57,6 +57,9 @@ export default function Contact() {
 							className="relative hover:scale-125 duration-300 ease-in-out"
 						/>
 					</a>
+				</div>
+				<div className="flex gap-3 items-center">
+					<p className="font-[Questrial]">Téléphone : 07 66 88 52 23</p>
 				</div>
 			</div>
 		</div>
