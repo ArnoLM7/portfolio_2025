@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Myprofile() {
 	return (
@@ -14,11 +15,23 @@ export default function Myprofile() {
 					width={1900}
 					height={20}
 					className="wave"
-				></Image>
+				/>
 			</div>
 			<div className="relative">
-				<h2 className="text-5xl font-[Tackerlen] mb-12">À propos de moi</h2>
-				<p className="text-base font-[Questrial] pl-10">
+				<motion.h2
+					initial={{ x: -200, opacity: 0 }}
+					animate={{ x: 0, opacity: 1 }}
+					transition={{ duration: 0.7, ease: "easeOut" }}
+					className="text-5xl font-[Tackerlen] mb-12"
+				>
+					À propos de moi
+				</motion.h2>
+				<motion.p
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ delay: 0.5, duration: 0.7 }}
+					className="text-base font-[Questrial] pl-10"
+				>
 					Je m&apos;appelle Arno et j&apos;ai 21 ans. J&apos;ai appris le
 					développement web au cours des 3 ans que j&apos;ai passé en BUT
 					&quot;Métiers du Multimédia et de l&apos;Internet&quot;. Cette
@@ -34,17 +47,20 @@ export default function Myprofile() {
 					plus de facilités. Je m&apos;intéresse particulièrement à ReactJS,
 					technologie auquel j&apos;ai tout de suite accroché par sa simplicité
 					et sa façon de gérer les données.
-				</p>
+				</motion.p>
 				<div className="flex gap-5 mt-8 pl-10 items-center">
 					<p className="text-lg font-[Questrial]">Télécharger mon CV :</p>
 					<a href="/assets/cvArno.pdf" download>
-						<Image
-							alt="downloadCV"
+						<motion.img
+							whileHover={{ scale: 1.2 }}
+							whileTap={{ scale: 0.9 }}
+							transition={{ duration: 0.3 }}
 							src="/assets/download.svg"
+							alt="downloadCV"
 							width={40}
 							height={40}
-							className="bg-yellow-100 rounded-full p-2 shadowLight hover:scale-125 duration-300 ease-in-out"
-						></Image>
+							className="bg-yellow-100 rounded-full p-2 shadowLight"
+						/>
 					</a>
 				</div>
 			</div>

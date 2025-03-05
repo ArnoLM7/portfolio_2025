@@ -1,14 +1,27 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Intro() {
 	return (
 		<div className="flex justify-center gap-32 items-center mt-20">
 			<div className="text-right">
-				<h1 className="font-[Tackerlen] text-9xl">Arno Le Moil</h1>
-				<h3 className="font-[Tackerlen] text-4xl justify-end">
+				<motion.h1
+					initial={{ x: -200, opacity: 0 }}
+					animate={{ x: 0, opacity: 1 }}
+					transition={{ duration: 0.6, ease: "easeOut" }}
+					className="font-[Tackerlen] text-9xl"
+				>
+					Arno Le Moil
+				</motion.h1>
+				<motion.h3
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ delay: 0.5, duration: 1 }}
+					className="font-[Tackerlen] text-4xl justify-end"
+				>
 					Développeur Web
-				</h3>
+				</motion.h3>
 				<div className="flex gap-6 justify-end mt-4">
 					<a
 						href="https://www.linkedin.com/in/kevin-nday-0b1b3b1b4/"
@@ -51,15 +64,20 @@ export default function Intro() {
 					</a>
 				</div>
 			</div>
-			<span className="flex justify-center items-center bg-yellow-100 rounded-full p-1 shadowLight">
+			<motion.span
+				initial={{ scale: 0.5, opacity: 0 }}
+				animate={{ scale: 1, opacity: 1 }}
+				transition={{ duration: 0.6, ease: "easeOut" }}
+				className="flex justify-center items-center bg-yellow-100 rounded-full p-1 shadowLight"
+			>
 				<Image
 					alt="Arno_Lemoil"
-					src="/assets/young-bearded.png"
+					src="/assets/arno.png"
 					width={260}
 					height={260}
 					className="object-cover rounded-full"
-				></Image>
-			</span>
+				/>
+			</motion.span>
 		</div>
 	);
 }
