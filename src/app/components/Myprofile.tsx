@@ -39,7 +39,7 @@ export default function Myprofile() {
 					d&apos;autres domaines, tels que le UX/UI, le design graphique,
 					l&apos;animation, la modélisation 3D ou encore le tournage et montage
 					vidéo. Cela m&apos;a permis de développer un esprit créatif, que
-					j&apos;utilise pour créer des sites web modernes et ergonomiques.
+					j&apos;exploite pour créer des sites web modernes et ergonomiques.
 					J&apos;ai également appris à travailler en équipe, à utiliser la
 					méthode Agile, à respecter des délais et surtout à devenir autonome.
 					Je me suis spécialisé dans le front-end, car c&apos;est la partie du

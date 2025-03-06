@@ -20,7 +20,7 @@ export const projects = [
 		date: "Mars 2024",
 		title: "Commande de sushi",
 		description:
-			"Ce site web a été réalisé en 2ème année de BUT, en groupe de 4. Le but était de réaliser un site de commande de sushi en ligne. Nous avons réalisé une API et un front-office pour les clients. Je me suis occupé plus particulèrement duj développement front et de la partie responsive mobile.",
+			"Ce site web a été réalisé en 2ème année de BUT, en groupe de 4. Le but était de réaliser un site de commande de sushi en ligne. Nous avons réalisé une API et un front-office pour les clients. Je me suis occupé plus particulèrement du développement front et de la partie responsive mobile.",
 		images: [
 			"/assets/nagashima/home.png",
 			"/assets/nagashima/liste.png",
@@ -36,9 +36,18 @@ export const projects = [
 		date: "Juin 2024",
 		title: "Questionnaire",
 		description:
-			"Ces maquettes à réaliser dans le cadre d'une proposition graphique pour un test de connaissance sur mobile, en stage de 2ème année de BUT. Ce test a pour but de délivrer un certificat \"Professionel du gaz\" à des installateurs de gaz à travers des série de questions sur l'installation, la maintenance et la sécurité du gaz. J'ai réalisé ces maquettes sur Figma et créé un prototype cliquable pour présenter le projet à l'entreprise.",
-		images: ["/assets/jdg-fred.gif", "/assets/chat.gif"],
+			"J'ai réalisé ces maquettes dans le cadre d'une proposition graphique pour un test de connaissance sur mobile, en stage de 2ème année de BUT. Ce test a pour but de délivrer un certificat \"Professionel du gaz\" à des installateurs de gaz à travers des série de questions sur l'installation, la maintenance et la sécurité du gaz. J'ai réalisé ces maquettes sur Figma et créé un prototype cliquable pour présenter le projet à l'entreprise.",
+		images: [
+			"/assets/questionnaire/accueil.png",
+			"/assets/questionnaire/recap_info.png",
+			"/assets/questionnaire/consignes.png",
+			"/assets/questionnaire/page_test.png",
+			"/assets/questionnaire/liste_questions.png",
+			"/assets/questionnaire/recap_reponses.png",
+			"/assets/questionnaire/test_fini.png",
+		],
 		icon: "/assets/projects/check-list.png",
+		mobile: true,
 		up: true,
 		technologies: ["Figma", "Photoshop"],
 	},

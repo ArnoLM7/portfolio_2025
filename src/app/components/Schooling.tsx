@@ -46,8 +46,8 @@ export default function Schooling() {
 						<p className="text-base font-[Questrial] pl-6">
 							Après mon bac, j&apos;ai décidé de faire une année de prépa
 							informatique pour intégrer une école d&apos;ingénieur, mais mon
-							besoin de faire du concret et de la pratique m&apos;a poussé à me
-							réorienter vers un BUT MMI.
+							besoin de pratiquer m&apos;a poussé à me réorienter vers un BUT
+							MMI.
 						</p>
 					</div>
 				</div>

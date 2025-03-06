@@ -16,7 +16,7 @@ export default function CarouselProjects({
 			navigation={true}
 			modules={[Navigation]}
 			className={`${
-				mobile ? "max-w-[280px] max-h-[410px]" : "max-w-[600px] max-h-[300px]"
+				mobile ? "max-w-[280px] max-h-[640px]" : "max-w-[600px] max-h-[300px]"
 			} rounded-md`}
 		>
 			{images.map((image, index) => (

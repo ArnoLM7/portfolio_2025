@@ -52,9 +52,9 @@ export default function NewTechnoMonitoring() {
 					<p className="text-base font-[Questrial] pl-4">
 						En tant que développeur se spécialisant dans le front-end, j&apos;ai
 						décidé de m&apos;intéresser plus spécifiquement à ReactJS, et pour
-						cela je m&apos;informe des nouveaux changement de la technlogie via
-						la ferme du web, stack overflow et bien évidemment via la
-						documentation officielle.
+						cela je m&apos;informe des nouveaux changement de la technologie via
+						la ferme du web, le site web de Grafikart, et bien évidemment via la
+						documentation officielle de React.
 					</p>
 				</div>
 			</div>

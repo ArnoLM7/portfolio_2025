@@ -1,10 +1,9 @@
 export const imagesStack = [
-	{ path: "/assets/html5.svg", name: "HTML" },
-	{ path: "/assets/css_old.svg", name: "CSS" },
 	{ path: "/assets/javascript.svg", name: "JavaScript" },
 	{ path: "/assets/typescript.svg", name: "TypeScript" },
 	{ path: "/assets/react.svg", name: "React" },
 	{ path: "/assets/angular.svg", name: "Angular" },
+	{ path: "/assets/sass.svg", name: "SCSS" },
 	{ path: "/assets/tailwindcss.svg", name: "Tailwind" },
 	{ path: "/assets/nodejs.svg", name: "NodeJS" },
 	{ path: "/assets/symfony.svg", name: "Symfony" },
