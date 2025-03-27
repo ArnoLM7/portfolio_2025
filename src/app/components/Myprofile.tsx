@@ -32,8 +32,8 @@ export default function Myprofile() {
 					transition={{ delay: 0.5, duration: 0.7 }}
 					className="text-base font-[Questrial] pl-10"
 				>
-					Je m&apos;appelle Arno et j&apos;ai 22 ans. J&apos;ai appris le
-					développement web au cours des 3 ans que j&apos;ai passé en BUT
+					Hello ! Je m&apos;appelle Arno et j&apos;ai 22 ans. J&apos;ai appris
+					le développement web au cours des 3 ans que j&apos;ai passé en BUT
 					&quot;Métiers du Multimédia et de l&apos;Internet&quot;. Cette
 					formation m&apos;a permis de développer des compétences dans
 					d&apos;autres domaines, tels que le UX/UI, le design graphique,
