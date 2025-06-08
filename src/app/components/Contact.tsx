@@ -13,7 +13,7 @@ export default function Contact() {
 				<div className="flex gap-3 items-center">
 					<p className="font-[Questrial]">Linkedin : </p>
 					<a
-						href="https://www.linkedin.com/in/kevin-nday-0b1b3b1b4/"
+						href="https://www.linkedin.com/in/arno-le-moil-69a63a36a/	"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
