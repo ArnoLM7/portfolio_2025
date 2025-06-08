@@ -16,6 +16,9 @@ export const metadata: Metadata = {
 	title: "Arno Le moil - Portfolio",
 	description:
 		"Je suis Arno Le Moil, développeur web fullstack. Je m'interesse plus particulièremet au développement front-end à travers des technologies comme React, Next.js, Tailwind CSS, et bien d'autres.",
+	icons: {
+		icon: "/assets/moon.ico",
+	},
 };
 
 export default function RootLayout({
