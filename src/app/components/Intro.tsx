@@ -72,7 +72,7 @@ export default function Intro() {
 			>
 				<Image
 					alt="Arno_Lemoil"
-					src="/assets/arno2.jpg"
+					src="/assets/arno.jpg"
 					width={260}
 					height={260}
 					className="object-cover rounded-full"

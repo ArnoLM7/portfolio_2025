@@ -46,7 +46,7 @@ export const projects = [
 			"/assets/questionnaire/recap_reponses.png",
 			"/assets/questionnaire/test_fini.png",
 		],
-		icon: "/assets/projects/check-list.svg",
+		icon: "/assets/projects/check-list.png",
 		mobile: true,
 		up: true,
 		technologies: ["Figma", "Photoshop"],
