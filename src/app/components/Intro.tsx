@@ -24,7 +24,7 @@ export default function Intro() {
 				</motion.h3>
 				<div className="flex gap-6 justify-end mt-4">
 					<a
-						href="https://www.linkedin.com/in/kevin-nday-0b1b3b1b4/"
+						href="https://www.linkedin.com/in/arno-le-moil-69a63a36a/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
