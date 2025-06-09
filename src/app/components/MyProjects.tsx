@@ -58,7 +58,6 @@ export default function MyProjects() {
 									src={project.icon}
 									width={55}
 									height={55}
-									unoptimized
 									className="absolute bottom-6"
 								/>
 							</div>

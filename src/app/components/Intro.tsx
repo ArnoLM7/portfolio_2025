@@ -75,7 +75,6 @@ export default function Intro() {
 					src="/assets/arno.jpg"
 					width={260}
 					height={260}
-					unoptimized
 					className="object-cover rounded-full"
 				/>
 			</motion.span>
